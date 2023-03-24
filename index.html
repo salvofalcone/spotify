@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    
+    <!-- aggiungere font originale -->
+
     <title>Spotify - Web Player: Music for everyone</title>
+
   </head>
+
   <body>
 
-    <nav>
+    <nav>  <!-- necessario fix per width della navbar -->
         <div class="tasti">
           <a href="#"><img src="img/menu/arrow__back.png" alt="" /></a>
           <a href="#"><img src="img/menu/forward-arrow.png" alt="" /></a>
         </div>
   
+
+        <!-- aggiungere effetto rialzo quando hover -->
         <div class="navbar__destra">
         <ul class="navbar__link">
           <li><a href="#">Premium</a></li>
@@ -22,13 +30,14 @@
           <li><a href="#">Download</a></li>
           <li>|</li>
           <li><a href="#">Iscriviti</a></li>
-          <li><a href="#" class="accedi">Accedi</a></li>
+          <li><a href="#" class="accedi">Accedi</a></li> <!-- sistemare bene questo tasto  -->
         </ul>
-      </nav>
+    </nav>
   
     <div class="menu">
       <div class="logo"><img src="img/menu/spotify.png" alt="logo" /></div>
 
+      <!-- rendere tutta la riga cliccabile -->
       <ul class="menu1">
         <li><img src="img/menu/home.png" alt="home" /><a href="">Home</a></li>
         <li>
@@ -55,11 +64,63 @@
         <li><a href="#">Impostazioni cookie Info annunci</a></li>
         <li><a href="#">Politica sui cookie</a></li>
       </ul>
+
       <!-- INSERIRE TASTO -->
+
+
     </div>
 
     <main>
-        
+      
+        <div class="contatti">
+
+            <div class="contattisx">
+
+                <ul class="utilities">
+                  <li class="contatti__title">Azienda</li>
+                  <li><a href="#">Chi siamo</a></li>
+                  <li><a href="#">Opportunità di lavoro</a></li>
+                  <li><a href="#">For the Record</a></li>
+                </ul>
+
+                <ul class="utilities">
+                  <li class="contatti__title">Community</li>
+                  <li><a href="">Per artisti</a></li>
+                  <li><a href="">Sviluppatori</a></li>
+                  <li><a href="">Pubblicità</a></li>
+                  <li><a href="">Investitori</a></li>
+                  <li><a href="">Venditori</a></li>
+                </ul>
+
+                <ul class="utilities">
+                  <li class="contatti__title">Link utili</li>
+                  <li><a href="">Assistenza</a></li>
+                  <li><a href="">App per cellulare gratuita</a></li>
+                  <li><a href="">Diritti del consumatore</a></li>
+                </ul>
+
+              </div>
+
+          <div class="contattidx">
+
+            <ul class="social">
+              <li><a href="#"><img src="img/social/instagram.png" alt="instagram"></a></li>
+              <li><a href="#"><img src="img/social/twitter.png" alt="twitter"></a></li>
+              <li><a href="#"><img src="img/social/facebook.png" alt="facebook"></a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
     </main>
+
+    <!-- aggiungere divider -->
+
+    <footer>
+      <p> &copy 2023 Spotify AB </p>
+    </footer>
+
   </body>
+
 </html>
