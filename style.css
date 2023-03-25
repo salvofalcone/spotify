@@ -145,8 +145,27 @@ main {
   
 }
 
+.cards__top{
+  padding: 40px 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__top a{
+  color:  rgb(148, 145, 145);
+}
+
+.cards__top a:hover{
+  color:  rgb(255, 255, 255);
+}
+
+.cards__top h3{
+  font-size: 1.5em;
+}
+
 .cards__caro{
   display: flex;
+  overflow: auto;
 }
 
 .cards__caro li{
