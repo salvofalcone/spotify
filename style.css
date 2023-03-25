@@ -9,14 +9,13 @@ a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-h2{
-  color:  rgb(255, 255, 255);
+h2 {
+  color: rgb(255, 255, 255);
 }
-
 
 /* MENU LATERALE */
 .menu {
@@ -27,11 +26,10 @@ h2{
   position: fixed;
   height: 100%;
   width: 270px;
-  background-color: #111;
+  background-color: #000;
   font-size: 1.2em;
   font-weight: semi-bold;
   color: rgb(148, 145, 145);
-  
 }
 .menu ul {
   list-style-type: none;
@@ -59,15 +57,21 @@ h2{
 .logo img {
   padding-bottom: 30px;
   width: 200px;
-  height: fit-content;
+  height: auto;
 }
 .menu3 {
   font-size: 0.5em;
   padding-top: 200px;
 }
 
-
-
+.lingua{
+  border-radius: 60px;
+  color: #ffffff;
+  padding: 7px 25px 6px 25px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
 
 /* NAVBAR  */
 
@@ -75,20 +79,22 @@ nav {
   display: flex;
   justify-content: space-between;
   height: 80px;
-  margin-left: 290px;
-  background-color: rgba(0, 0, 0, 0.319);
+  background-color: rgba(16, 16, 16, 0.57) ;
 
-  padding-left: 40px;
-  padding-right: 40px;
   font-size: 1.5em;
 
   position: fixed;
-  width: 75%;
+  width: 100%;
 }
 
 .tasti {
+  margin-left: 340px;
   display: flex;
   align-items: center;
+}
+
+.navbar__link li:hover {
+  transform: scale(1.025);
 }
 
 .tasti img {
@@ -98,6 +104,7 @@ nav {
 .navbar__destra {
   display: flex;
   justify-content: flex-end;
+  margin-right: 30px;
 }
 .navbar__link {
   display: flex;
@@ -107,7 +114,6 @@ nav {
 
 .navbar__link a {
   text-decoration: none;
-  
 }
 
 .navbar__link a:hover {
@@ -118,7 +124,6 @@ nav {
 .navbar__link li {
   list-style-type: none;
   padding-right: 16px;
-  
 }
 
 .separation {
@@ -127,89 +132,94 @@ nav {
 
 .accedi {
   background-color: white;
-  border-radius: 10px;
+
+  border-radius: 60px;
+  color: #000000;
+  background: #ffffff;
+  padding: 17px 35px 17px 35px;
+  text-decoration: none;
+}
+
+.accedi:hover {
   color: black;
 }
 
-
-
-
-
-
 /* MAIN */
 main {
-  background-color: rgb(30, 30, 30);
+  background-color:rgb(30,30,30);
 
   padding-top: 80px;
   padding-left: 290px;
-  
 }
 
-.cards__top{
+.cards__top {
   padding: 40px 50px 0 50px;
   display: flex;
   justify-content: space-between;
 }
 
-.cards__top a{
-  color:  rgb(148, 145, 145);
+.cards__top a {
+  color: rgb(148, 145, 145);
 }
 
-.cards__top a:hover{
-  color:  rgb(255, 255, 255);
+.cards__top a:hover {
+  color: rgb(255, 255, 255);
 }
 
-.cards__top h3{
+.cards__top h3 {
   font-size: 1.5em;
 }
 
-.cards__caro{
+.cards__caro {
   display: flex;
-  overflow: auto;
+  overflow: scroll;
 }
 
-.cards__caro li{
+/* Per nacondere la scrollbar orizzontale */
+.cards__caro::-webkit-scrollbar {
+  display: none;
+}
+
+.cards__caro li {
   padding: 40px;
   margin: 10px;
 }
 
-.cards__caro img{
+.cards__caro img {
   height: 200px;
 }
 
-.cards__caro h3{
+.cards__caro h3 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.cards__caro p{
+.cards__caro p {
   line-height: 150%;
 }
 
-.cards__caro li:hover{
+.cards__caro li:hover {
   background-color: rgba(69, 68, 68, 0.57);
 }
 
-
-
 /* CONTATTI */
-.contatti{
+.contatti {
   display: flex;
   justify-content: space-between;
   line-height: 2.2em;
-  padding:100px 40px;
+  padding: 100px 40px;
 }
 
-.contattisx{
-  display: flex;  
+.contattisx {
+  display: flex;
 }
 
-.contatti__title{
+.contatti__title {
   color: white;
   font-weight: bold;
 }
 
-.utilities{
+.utilities {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -217,19 +227,18 @@ main {
   font-size: 1.2em;
 }
 
-.social{
+.social {
   display: flex;
 }
 
-.social img{
+.social img {
   width: 40px;
   padding: 20px;
 }
 
-
 /* FOOTER */
 
-footer{
+footer {
   background-color: rgb(30, 30, 30);
   padding-top: 100px;
   padding-left: 330px;
