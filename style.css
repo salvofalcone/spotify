@@ -17,6 +17,8 @@ h2{
   color:  rgb(255, 255, 255);
 }
 
+
+/* MENU LATERALE */
 .menu {
   display: flex;
   flex-direction: column;
@@ -29,7 +31,7 @@ h2{
   font-size: 1.2em;
   font-weight: semi-bold;
   color: rgb(148, 145, 145);
-
+  
 }
 .menu ul {
   list-style-type: none;
@@ -63,6 +65,11 @@ h2{
   font-size: 0.5em;
   padding-top: 200px;
 }
+
+
+
+
+/* NAVBAR  */
 
 nav {
   display: flex;
@@ -124,6 +131,12 @@ nav {
   color: black;
 }
 
+
+
+
+
+
+/* MAIN */
 main {
   background-color: rgb(30, 30, 30);
 
@@ -132,14 +145,41 @@ main {
   
 }
 
+.cards__caro{
+  display: flex;
+}
+
+.cards__caro li{
+  padding: 40px;
+  margin: 10px;
+}
+
+.cards__caro img{
+  height: 200px;
+}
+
+.cards__caro h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cards__caro p{
+  line-height: 150%;
+}
+
+.cards__caro li:hover{
+  background-color: rgb(37, 37, 37);
+}
+
+
+
+/* CONTATTI */
 .contatti{
   display: flex;
   justify-content: space-between;
   line-height: 2.2em;
   padding:100px 40px;
 }
-
-
 
 .contattisx{
   display: flex;  
@@ -165,9 +205,10 @@ main {
 .social img{
   width: 40px;
   padding: 20px;
-  background-color: #111; /* aggiungere sfondo circolare */
 }
 
+
+/* FOOTER */
 
 footer{
   background-color: rgb(30, 30, 30);
