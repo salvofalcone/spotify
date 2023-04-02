@@ -15,25 +15,31 @@
 
   <body>
 
-    <nav>  <!-- necessario fix per width della navbar -->
+    <!-- navbar fissa in alto e non scrollabile -->
+    <nav>
+
+        <!-- tasti baxk forward -->
         <div class="tasti">
-          <a href="#"><img src="img/menu/arrow__back.png" alt="" /></a>
-          <a href="#"><img src="img/menu/forward-arrow.png" alt="" /></a>
+          <a href="#"><img src="img/menu/arrow__back.png" alt="indietro" /></a>
+          <a href="#"><img src="img/menu/forward-arrow.png" alt="avanti" /></a>
         </div>
   
 
         <!-- aggiungere effetto rialzo quando hover -->
         <div class="navbar__destra">
-        <ul class="navbar__link">
-          <li><a href="#">Premium</a></li>
-          <li><a href="#">Assistenza</a></li>
-          <li><a href="#">Download</a></li>
-          <li>|</li>
-          <li><a href="#">Iscriviti</a></li>
-          <li><a href="#" class="accedi">Accedi</a></li> <!-- sistemare bene questo tasto  -->
-        </ul>
+          <ul class="navbar__link">
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Assistenza</a></li>
+            <li><a href="#">Download</a></li>
+            <li>|</li>
+            <li><a href="#">Iscriviti</a></li>
+            <li><a href="#" class="accedi">Accedi</a></li> <!-- sistemare bene questo tasto  -->
+          </ul>
+        </div>
     </nav>
  
+
+    <!-- zona laterale sx fissa -->
     <div class="menu">
       <div class="logo"><img src="img/menu/spotify.png" alt="logo" /></div>
 
@@ -48,6 +54,7 @@
         </li>
       </ul>
       
+      <!-- menu centrale sinistra -->
       <ul class="menu2">
         <li>
           <img src="img/menu/plus.png" alt="Crea playlist" /><a href="">Crea playlist</a>
@@ -58,6 +65,7 @@
         </li>
       </ul>
 
+      <!-- menu in basso a sinistra -->
       <ul class="menu3">
         <li><a href="#">Informazioni legali</a></li>
         <li><a href="#">Centro sulla privacy</a></li>
@@ -75,13 +83,18 @@
 
     <main>
 
+
+      <!-- cards -->
+
         <div class="cards">
 
+          <!-- titolo della sezione -->
           <div class="cards__top">
             <h3>Focus</h3>
             <a href="#">Mostra altro</a>
           </div>
-
+                    
+          <!-- carte playlists -->
           <ul class="cards__caro">
             <li><a href="#">
               <img src="img/cards/1/1.1.jpeg" alt="cards1">
@@ -134,6 +147,14 @@
         </div>
 
         <div class="cards">
+          
+          <!-- titolo della sezione -->
+          <div class="cards__top">
+            <h3>Playlist di Spotify</h3>
+            <a href="#">Mostra altro</a>
+          </div>
+
+          <!-- carte playlists -->
           <ul class="cards__caro">
             <li><a href="#">
               <img src="img/cards/2/2.1.jpeg" alt="cards1">
@@ -186,6 +207,7 @@
         </div>
 
       
+        <!-- zona contatti -->
         <div class="contatti">
 
             <div class="contattisx">
@@ -215,6 +237,7 @@
 
               </div>
 
+              <!-- link social -->
           <div class="contattidx">
 
             <ul class="social">
